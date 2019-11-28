@@ -1,0 +1,23 @@
+<html>
+<head>
+	<script type="text/javascript">
+		let a = ['사과','감','감','배','포도','포도','딸기','포도','감','수박','딸기']
+		function count_fruit(name){
+  		let	count = 0;
+		for (let i = 0; i < a.length; i++) {
+			if (a[i] == name) {
+			count = count + 1;
+				}
+			}
+			console.log(count);
+		}
+
+// 함수로 만들어두면 같은 기능을 매번 칠 필요가 없죠!
+count_fruit('감')
+count_fruit('수박')
+	</script>
+</head>
+	<body>
+
+	</body>
+</html>
